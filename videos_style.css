@@ -1,0 +1,151 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-image: url("Graphic Elements/Background.jpg");
+  background-repeat: repeat-y;
+  overflow-x: hidden;
+}
+
+main{
+  height: 100vh;
+  width: 100vw;
+}
+
+.nav-bar-links_videos{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+  text-decoration: none;
+  color: white;
+  font-size: 1.1rem;
+  height: 10vh;
+  width: 60vw;
+  margin: auto;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+}
+
+a.nav-links-videos:hover{
+  color: #FAB502;
+}
+
+.top-video-container{
+  height: 80vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  margin-top: 12px;
+}
+
+.top-video{
+ height: 100%;
+ width: 70%;
+}
+
+.videos-list{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+  list-style: none;
+}
+
+.videos-container{
+  margin-top: 70px;
+}
+
+.videos{
+  height: 300px;
+  width: 400px;
+}
+
+.stream-my-ep{
+  margin: 80px 0 0 60px;
+  font-family: 'Oswald', sans-serif;
+  font-size: 2.6rem;
+  color: white;
+  text-shadow: -3px 2px 8px grey;
+}
+
+.ep-section{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 40px;
+}
+
+.ep-poster{
+  height: 500px;
+  width: auto;
+}
+
+h1.ep-track-links{
+  color: #F8C50B;
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
+  font-size: 1.5rem;
+  letter-spacing: 2px;
+}
+
+.ep-video-list{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+}
+
+.ep-track-links{
+ list-style: none;
+ font-size: 1.1rem;
+}
+
+.track-names{
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 1.3rem;
+  letter-spacing: 2px;
+}
+
+.my-collaboration{
+  margin: 100px 0 30px 60px;
+  font-family: 'Oswald', sans-serif;
+  font-size: 2.6rem;
+  color: white;
+}
+
+.collaboration-video-list{
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+}
+
+.collaboration-video-links{
+  height: 200px;
+  width: 300px;
+}
+
+.social-media-container{
+  margin-left: auto;
+  position: absolute;
+  top: 20%;
+  left: 6%;
+}
+
+.social-media{
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.social-media-icons{
+  height: 65px;
+  padding: 10px;
+}
