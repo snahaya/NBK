@@ -5,7 +5,7 @@
 }
 
 body{
-  overflow: hidden;;
+  overflow: hidden;
 }
 
 main{
@@ -84,4 +84,78 @@ a.nav-links:hover{
 
 .social-media-icons{
   height: 42px;
+}
+
+@media (max-width: 480px){
+
+  body{
+    overflow: hidden;
+  }
+  
+  main{
+    display: grid;
+    grid-template-rows: 1fr 3fr;
+    background-repeat: repeat-y;
+    min-height: 100vh;
+  }
+
+  .left{
+    min-width: 100vw;
+  }
+
+  .right{
+    min-width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+
+  nav{
+    position: absolute;
+    top: 10px;
+    width: 100vw;
+    padding: 0 30px;
+  }
+
+  .nav-bar-links{
+    font-size: 10px;
+  }
+
+  .nbk-image-container{
+    display: grid;
+    place-items: center;
+  }
+
+  .nbk-image{
+    height: 40vh;
+  }
+
+  .nbk-name{
+    width: 31vw;
+    height: auto;
+    position: absolute;
+    top: 30%;
+    left: 30%;
+  }
+
+  .nakaam-image-container{
+    display: flex;
+    padding-left: 25%;
+  }
+  
+  .nakaam-image{
+    height: 300px;
+    
+  }
+
+  .social-media-container{
+    width: 30%;
+    margin-left: auto;
+    padding-right: 30px;
+  }
+
+  .social-media-icons{
+    height: 25px;
+  }
+
 }
