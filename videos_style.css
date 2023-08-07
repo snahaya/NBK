@@ -43,6 +43,7 @@ a.nav-links-videos:hover{
   width: 100vw;
   display: flex;
   justify-content: center;
+  align-items: center;
   margin-top: 12px;
 }
 
@@ -148,4 +149,64 @@ h1.ep-track-links{
 .social-media-icons{
   height: 65px;
   padding: 10px;
+}
+
+@media (max-width: 480px){
+
+  main{
+  width: 100vw;
+}
+
+  .nav-bar-links_videos{
+    height: 15vh;
+    width: 100vw;
+    margin-bottom: 100px;
+  }
+
+  .top-video-container{
+    height: 25vh;
+    width: 200vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 12px;
+  }
+
+  .top-video{
+    height: 360px;
+    width: 550px;
+   }
+   
+   .videos-list{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 140px;
+    list-style: none;
+    width: 200vw;
+   }
+   
+   .videos-container{
+     margin-top: 70px;
+   }
+
+   .ep-section{
+    width: 130vw;
+    margin-top: 40px;
+  }
+  
+  .ep-poster{
+    margin-right: 30px;
+  }
+
+  .collaboration-video-list{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 140px;
+    list-style: none;
+    width: 200vw;
+  }
 }
